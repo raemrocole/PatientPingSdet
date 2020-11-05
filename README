@@ -1,0 +1,23 @@
+This code is not testable or maintainable in it's current state, your task is to refactor it.
+    - Add comments to describe what's happening.
+    - Create test cases to be sure the functionality is correct.
+    - Fix bugs found by tests.
+
+Expected functionality:
+    - Load the CSV of books correctly and in a robust manner.
+    - Print the number of english books.
+    - Print the author with the most books. The authors column often has more than one author, be sure to account for that.
+    - Print the author of the book with the highest average star rating. Exclude any books from consideration that
+      have fewer than 25 total ratings.
+    - Print the author of the book with the highest ratio of text reviews to star reviews on their books and what the ratio is.
+    - Print the author with the highest average star rating across all of their books. (This isn't implemented yet. Please add it.)
+
+From the directory containing this README file you can build the code with:
+ mvn package
+
+You can execute tests with:
+ mvn test
+
+And run the code with:
+ java -jar target/interviewtakehome-1.0-SNAPSHOT-jar-with-dependencies.jar
+
